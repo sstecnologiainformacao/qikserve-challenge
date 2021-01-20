@@ -1,0 +1,16 @@
+{
+    "name": "checkout-supermarket-server",
+    "version": "0.0.1",
+    "description": "This is a backend to serve information to checkout-supermarket app",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "author": "Joao Lucas dos Santos",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "request": "^2.88.2"
+    }
+}
